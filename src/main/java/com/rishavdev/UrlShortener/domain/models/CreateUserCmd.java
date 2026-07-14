@@ -1,0 +1,8 @@
+package com.rishavdev.UrlShortener.domain.models;
+
+public record CreateUserCmd(
+        String email,
+        String password,
+        String name,
+        Role role) {
+}
